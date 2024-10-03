@@ -4,8 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Lexend", sans-serif;
+      }
+    </style>
   </head>
   <body>
+    <header class="sticky top-0">
+      <!-- navbar  -->
+      <nav class="w-full bg-[#FDD835] py-6 bg-opacity-[10%] backdrop-blur-sm">
+        <div class="flex justify-between px-2 lg:px-0 lg:justify-around">
+          <button
+            class="hidden lg:inline-block btn bn-sm lg:btn-lg border-none bg-[#B4F461] active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold">
+            Blog
+          </button>
+          <div class="flex justify-center items-center">
+            <img src="assets/logo.png" alt="" class="lg:mr-4" />
+            <p class="lg:text-[20px] font-semibold">Donate Bangladesh</p>
+          </div>
+          <div class="flex justify-center items-center">
+            <img src="assets/coin.png" alt="" class="lg:mr-3" />
+            <p class="lg:text-[20px] text-[#111111]">
+              <span>5500</span>
+              BDT
+            </p>
+          </div>
+        </div>
+      </nav>
+
+      <!-- donation and history button  -->
+      <div></div>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
   </body>
 </html>
