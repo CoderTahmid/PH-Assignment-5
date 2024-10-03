@@ -23,11 +23,13 @@
     </style>
   </head>
   <body>
+    
     <header class="sticky top-0">
       <!-- navbar  -->
-      <nav class="w-full bg-[#FDD835] py-6 bg-opacity-[10%] backdrop-blur-sm">
+      <nav class="w-full bg-[#FDD835] py-6 bg-opacity-[10%] backdrop-blur-md">
         <div class="flex justify-between px-2 lg:px-0 lg:justify-around">
           <button
+            onclick="goToBlogFile()"
             class="hidden lg:inline-block btn bn-sm lg:btn-lg border-none bg-[#B4F461] active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold">
             Blog
           </button>
@@ -46,22 +48,30 @@
       </nav>
 
       <!-- donation and history button  -->
-      <div class="mt-10 lg:mt-[80px] flex justify-center items-center gap-x-4">
+      <div
+        class="pt-10 pb-4 mt-0 lg:pb-8 lg:pt-[80px] flex justify-center items-center gap-x-4 bg-white backdrop-blur-md bg-opacity-[10%]">
         <button
+          onclick="goToBlogFile()"
           class="lg:hidden inline-block btn bn-sm lg:btn-lg border-[#1111114D] bg-transparent active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold">
           Blog
         </button>
-        <button class="btn bn-sm lg:btn-lg border-none bg-[#B4F461] active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold">
+        <button
+          class="btn bn-sm lg:btn-lg border-none bg-[#B4F461] active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold">
           Donation
         </button>
-        <button class="btn bn-sm lg:btn-lg border-[#1111114D] bg-transparent active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold">
+        <button
+          class="btn bn-sm lg:btn-lg border-[#1111114D] bg-transparent active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold">
           History
         </button>
       </div>
     </header>
 
-    <main></main>
+    <main>
+
+    </main>
 
     <footer></footer>
+
+    <script src="js/blog.js"></script>
   </body>
 </html>
