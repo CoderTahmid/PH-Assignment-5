@@ -39,7 +39,7 @@
           <div class="flex justify-center items-center">
             <img src="assets/coin.png" alt="" class="mr-2 lg:mr-3" />
             <p class="lg:text-[20px] text-[#111111]">
-              <span>5500</span>
+              <span id="total-left-money">5500</span>
               BDT
             </p>
           </div>
@@ -74,9 +74,9 @@
           <div
             class="flex items-center bg-[#1111110c] p-4 h-11 w-[120px] rounded-[8px] gap-2">
             <img src="assets/coin.png" alt="" />
-            <p class="text-[#111111b2]">
-              <span>0</span>
-              BDT
+            <p class="text-[#111111b2] flex justify-center items-center gap-1">
+              <span id="noakhali-money">0</span>
+              <span>BDT</span>
             </p>
           </div>
           <h1 class="font-bold text-xl">
@@ -93,10 +93,11 @@
           <input
             type="text"
             name=""
-            id=""
+            id="noakhali-flood-inp-field"
             placeholder="Write Donation Amount"
             class="p-[18px] rounded-lg border-[1px] border-[#1111111A] w-full text-[#11111166] font-light mx-auto" />
           <button
+            id="noakhali-btn"
             class="btn bn-sm lg:btn border-none bg-[#B4F461] active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold w-full">
             Donate Now
           </button>
@@ -111,9 +112,9 @@
           <div
             class="flex items-center bg-[#1111110c] p-4 h-11 w-[120px] rounded-[8px] gap-2">
             <img src="assets/coin.png" alt="" />
-            <p class="text-[#111111b2]">
-              <span>0</span>
-              BDT
+            <p class="text-[#111111b2] flex justify-center items-center gap-1">
+              <span id="feni-money">0</span>
+              <span>BDT</span>
             </p>
           </div>
           <h1 class="font-bold text-xl">
@@ -130,10 +131,11 @@
           <input
             type="text"
             name=""
-            id=""
+            id="feni-flood-input-field"
             placeholder="Write Donation Amount"
             class="p-[18px] rounded-lg border-[1px] border-[#1111111A] w-full text-[#11111166] font-light mx-auto" />
           <button
+            id="feni-btn"
             class="btn bn-sm lg:btn border-none bg-[#B4F461] active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold w-full">
             Donate Now
           </button>
@@ -148,9 +150,9 @@
           <div
             class="flex items-center bg-[#1111110c] p-4 h-11 w-[120px] rounded-[8px] gap-2">
             <img src="assets/coin.png" alt="" />
-            <p class="text-[#111111b2]">
-              <span>0</span>
-              BDT
+            <p class="text-[#111111b2] flex justify-center items-center gap-1">
+              <span id="quota-money">0</span>
+              <span>BDT</span>
             </p>
           </div>
           <h1 class="font-bold text-xl">
@@ -167,10 +169,11 @@
           <input
             type="text"
             name=""
-            id=""
+            id="quota-input-field"
             placeholder="Write Donation Amount"
             class="p-[18px] rounded-lg border-[1px] border-[#1111111A] w-full text-[#11111166] font-light mx-auto" />
           <button
+            id="quota-btn"
             class="btn bn-sm lg:btn border-none bg-[#B4F461] active:bg-[#B4F461] hover:bg-[#B4F461] hover:border-none lg:text-[20px] font-semibold w-full">
             Donate Now
           </button>
@@ -181,5 +184,7 @@
     <footer></footer>
 
     <script src="js/blog.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/moneyAdding.js"></script>
   </body>
 </html>
