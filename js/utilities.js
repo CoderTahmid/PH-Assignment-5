@@ -15,9 +15,14 @@ function moneyAddingFunc(btnId, inputFieldId, totalDonatedMoneyId) {
 
             const newTotalLeftMoney = totalAccountMoney - donationAmount;
             document.getElementById('total-left-money').innerText = newTotalLeftMoney;
+
+            document.getElementById('congrats-msg').classList.remove('hidden');
         } else {
             alert('Invalid Donation Amount');
         };
     });
 };
 
+document.getElementById('congrats-msg-button').addEventListener('click', function () {
+    document.getElementById('congrats-msg').classList.add('hidden');
+});
